@@ -18,4 +18,6 @@ export enum Project {
   AAVEGOTCHI_MAINNET = "aavegotchi_mainnet",
   TIMESWAP_TEST_MAINNET = "timeswap_test_mainnet",
   TESTING_TESTNET = "testing_testnet",
+  SOCKET_SEPOLIA_FUNKI_TOKEN_TESTNET = "socket_sepolia_funki_token_testnet",
+  SOCKET_SEPOLIA_FUNKI_BRIDGE_TESTNET = "socket_sepolia_funki_bridge_testnet",
 }
