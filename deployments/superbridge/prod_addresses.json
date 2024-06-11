@@ -1974,5 +1974,33 @@
         }
       }
     }
+  },
+  "socket_sepolia_funki_bridge_testnet": {
+    "3397901": {
+      "SIPHER": {
+        "isAppChain": true,
+        "MintableToken": "0xe54708A034592Fd9f5a82e3765725036f59dEc59",
+        "Controller": "0x1bDFb398a6B388Df05f347f1B399D93398DdB41b",
+        "LimitHook": "0x76b33802d3FC7c67bf4e9F7E2C8f345B040e390B",
+        "connectors": {
+          "11155111": {
+            "FAST": "0x8E18F23dfb741CDEfE7380b442D22d41bDc9f319"
+          }
+        }
+      }
+    },
+    "11155111": {
+      "SIPHER": {
+        "isAppChain": false,
+        "NonMintableToken": "0x7f0c2F38d6386268f49501707DD1421fd03353Fc",
+        "Vault": "0x9473d4e61Ece19Ff3Cb737E5C255B9F002EBf4bd",
+        "LimitHook": "0xe74236bd60103a578606ca46e12ca02304a45602",
+        "connectors": {
+          "3397901": {
+            "FAST": "0x420f5960676f4fE2DedDc9a38291CA1cD120F65c"
+          }
+        }
+      }
+    }
   }
 }
