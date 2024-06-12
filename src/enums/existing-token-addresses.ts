@@ -82,5 +82,5 @@ export const ExistingTokenAddresses: {
     [Tokens.DAI]: "0xDC0258dc3dB980090E97EbF4f1FD9Cc3C5AD5894",
     [Tokens.WETH]: "0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3",
     [Tokens.WBTC]: "0xfC5CC93d85861ac82d89fc2D3e56315540E9C8A7",
-  }
+  },
 };
