@@ -69,7 +69,7 @@ const liveNetworks = [
   HardhatChainName.REYA_CRONOS,
   HardhatChainName.REYA,
   HardhatChainName.SYNDR_SEPOLIA_L3,
-  HardhatChainName.SIPHER_FUNKI_TESTNET
+  HardhatChainName.SIPHER_FUNKI_TESTNET,
 ];
 
 let hardhatNetworkDetails = {};
@@ -106,7 +106,6 @@ const config: HardhatUserConfig = {
       reya_cronos: "none",
       reya: "none",
       "funki-testnet": "none",
-
     },
     customChains: [
       {
@@ -199,7 +198,10 @@ const config: HardhatUserConfig = {
       },
       {
         network: "funki-testnet",
-        chainId: ChainSlugToId[hardhatChainNameToSlug[HardhatChainName.SIPHER_FUNKI_TESTNET]],
+        chainId:
+          ChainSlugToId[
+            hardhatChainNameToSlug[HardhatChainName.SIPHER_FUNKI_TESTNET]
+          ],
         urls: {
           apiURL: "https://sepolia-sandbox.funkichain.com/api",
           browserURL: "https://sepolia-sandbox.funkichain.com/",
