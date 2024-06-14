@@ -73,7 +73,7 @@ export const ExistingTokenAddresses: {
     [Tokens.WETH]: "0x771d1Ae208377453D478dF08BbC38034F72aC833",
     [Tokens.WBTC]: "0x94BEff5da6201cB2C8F489196FD970B3DF5aA32A",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-
+    [Tokens.SIPHER]: "0x7f0c2f38d6386268f49501707dd1421fd03353fc",
   },
   [ChainSlug.AEVO_TESTNET]: {
     [Tokens.USDC]: "0x4D435C00E09034ec2113F63088CCD0be0a0fd06e",
@@ -85,5 +85,5 @@ export const ExistingTokenAddresses: {
     [Tokens.WETH]: "0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     [Tokens.WBTC]: "0xfC5CC93d85861ac82d89fc2D3e56315540E9C8A7",
-  },
+  }
 };
