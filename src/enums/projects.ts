@@ -18,4 +18,5 @@ export enum Project {
   AAVEGOTCHI_MAINNET = "aavegotchi_mainnet",
   TIMESWAP_TEST_MAINNET = "timeswap_test_mainnet",
   TESTING_TESTNET = "testing_testnet",
+  SIPHER_TOKEN_TESTNET = "sipher_token_testnet",
 }
