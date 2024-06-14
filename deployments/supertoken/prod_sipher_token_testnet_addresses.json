@@ -1,0 +1,47 @@
+{
+  "3397901": {
+    "SIPHER": {
+      "SuperToken": "0xca613fc1613d1cc42c6701A8450336765a8AD463",
+      "Controller": "0x33148d2E5F1b74548da415d57bEE0F3d880a8485",
+      "LimitHook": "0xe9E4C12Ac367b45815Cc7232b7e4EC992d001845",
+      "connectors": {
+        "11155111": {
+          "FAST": "0x1aB5A634FCE7Bc49cf9CEDA2d2321F1660C80ed2"
+        },
+        "11155420": {
+          "FAST": "0xA603193A22e269419c9eBD026C2c99F8badB54e5"
+        }
+      }
+    }
+  },
+  "11155111": {
+    "SIPHER": {
+      "NonMintableToken": "0x7f0c2F38d6386268f49501707DD1421fd03353Fc",
+      "Vault": "0x86136b1D5168b57281044022Dd01963b834a9a42",
+      "LimitHook": "0x1d0484dCe0e7Fa8EA5318E34E00eDFA774c5058a",
+      "connectors": {
+        "3397901": {
+          "FAST": "0x9226885647B0335bFe325589074e10a9A678656e"
+        },
+        "11155420": {
+          "FAST": "0xBDBB2ce8A47358B6b58d9d902f66DE74cc4b28Ac"
+        }
+      }
+    }
+  },
+  "11155420": {
+    "SIPHER": {
+      "SuperToken": "0xD4fBC4c3E13Da08eCd00d260F6513012E161383E",
+      "Controller": "0xc6B7171966832254E9023319A7bdB90eB87a6AEF",
+      "LimitHook": "0x99a3CB40aEE543Cb5472714A2d60f5Ccf75f5075",
+      "connectors": {
+        "3397901": {
+          "FAST": "0xBb38C617CADe52CFb8D89436e668D884B5902BEA"
+        },
+        "11155111": {
+          "FAST": "0xea0de297C3BD1797Bc327d1F8f1EB5a24A967AeC"
+        }
+      }
+    }
+  }
+}

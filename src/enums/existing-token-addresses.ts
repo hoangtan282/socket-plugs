@@ -70,10 +70,10 @@ export const ExistingTokenAddresses: {
     [Tokens.USDC]: "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
     [Tokens.USDT]: "0xB4130e87A180b9448286B291331aEe8A9C154A3A",
     [Tokens.DAI]: "0x255745E5C7Ae620b7f523F5E4A0Ead37660EC5d6",
-    // [Tokens.WETH]: "0xE67ABDA0D43f7AC8f37876bBF00D1DFadbB93aaa", // actual weth
-    [Tokens.WETH]: "0x771d1Ae208377453D478dF08BbC38034F72aC833", // dummy token
+    [Tokens.WETH]: "0x771d1Ae208377453D478dF08BbC38034F72aC833",
     [Tokens.WBTC]: "0x94BEff5da6201cB2C8F489196FD970B3DF5aA32A",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    [Tokens.SIPHER]: "0x7f0c2f38d6386268f49501707dd1421fd03353fc",
   },
   [ChainSlug.AEVO_TESTNET]: {
     [Tokens.USDC]: "0x4D435C00E09034ec2113F63088CCD0be0a0fd06e",
@@ -85,5 +85,5 @@ export const ExistingTokenAddresses: {
     [Tokens.WETH]: "0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     [Tokens.WBTC]: "0xfC5CC93d85861ac82d89fc2D3e56315540E9C8A7",
-  },
+  }
 };
