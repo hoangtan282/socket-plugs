@@ -17,7 +17,8 @@
     "ALPHA": 18,
     "KEK": 18,
     "GLTR": 18,
-    "STIME": 18
+    "STIME": 18,
+    "SIPHER": 18
   },
   "tokenAddresses": {
     "1": {
@@ -88,7 +89,8 @@
       "DAI": "0x255745E5C7Ae620b7f523F5E4A0Ead37660EC5d6",
       "WETH": "0x771d1Ae208377453D478dF08BbC38034F72aC833",
       "WBTC": "0x94BEff5da6201cB2C8F489196FD970B3DF5aA32A",
-      "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+      "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "SIPHER": "0x7f0c2f38d6386268f49501707dd1421fd03353fc"
     },
     "11155112": {
       "USDC": "0x4D435C00E09034ec2113F63088CCD0be0a0fd06e"
@@ -120,7 +122,8 @@
     "ALPHA": "ALPHA",
     "KEK": "KEK",
     "GLTR": "GLTR",
-    "STIME": "STIME"
+    "STIME": "STIME",
+    "SIPHER": "SIPHER"
   },
   "projects": [
     "aevo",
@@ -141,7 +144,8 @@
     "adg_mainnet",
     "aavegotchi_mainnet",
     "timeswap_test_mainnet",
-    "testing_testnet"
+    "testing_testnet",
+    "sipher_token_testnet"
   ],
   "tokens": [
     "MOON",
@@ -161,6 +165,7 @@
     "ALPHA",
     "KEK",
     "GLTR",
-    "STIME"
+    "STIME",
+    "SIPHER"
   ]
 }

@@ -652,10 +652,10 @@
     "@sentry/types" "5.30.0"
     tslib "^1.9.3"
 
-"@socket.tech/dl-core@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@socket.tech/dl-core/-/dl-core-2.9.0.tgz#676744f3a2cb6b2c07b7bb281154b0e97359f562"
-  integrity sha512-fdejzQNDrNclT9dqQkUfbeqrn96NkBwiTSfl7GJxRwfC66uY1F+V3+XRyrfO30NKTh+HXHSljkjUo97wLar13Q==
+"@socket.tech/dl-core@^2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@socket.tech/dl-core/-/dl-core-2.11.0.tgz#1005081e57b28af4b34f053fc64b2b7104e4aae1"
+  integrity sha512-nkzaro+gtSnpx7uWNGH0tvdVZbaFOZyIiJlzqR+DikWntWa+2SnluHfXU07jrcFOb1X52r0zrtNqP1kW/99C5Q==
   dependencies:
     axios "^1.3.6"
     prompts "^2.4.2"
